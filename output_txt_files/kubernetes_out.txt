@@ -1,0 +1,24 @@
+mohamed@mohamed-HP-ProBook-650-G1:~/Downloads/DevOps_Microservices/project-ml$ sudo ./make_prediction.sh
+[sudo] password for mohamed: 
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+
+
+
+mohamed@mohamed-HP-ProBook-650-G1:~/Downloads/DevOps_Microservices/project-ml$ sudo ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "sklearn" already exists
+NAME                            READY   STATUS    RESTARTS   AGE
+predections                     1/1     Running   1          3h17m
+predict                         1/1     Running   1          3h56m
+redis-master-57d77fcd94-xzc9l   1/1     Running   0          100m
+sklearn                         1/1     Running   0          31s
+sklearn-pod                     1/1     Running   0          72m
+sklearnapp                      1/1     Running   1          166m
+udacity-p4                      1/1     Running   0          148m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
