@@ -17,3 +17,11 @@
 0     0  6.575  296.0     15.3  396.9   4.98
 172.17.0.1 - - [17/Jun/2020 18:42:09] "POST /predict HTTP/1.1" 200 -
 
+
+mohamed@mohamed-HP-ProBook-650-G1:~/Downloads/DevOps_Microservices/project-ml$ sudo ./make_prediction.sh
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
