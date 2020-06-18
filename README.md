@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+[![<ORG_NAME>](https://circleci.com/gh/adelm535/Project4.svg?style=svg)](<LINK>)
 
 ## Project Overview
 
